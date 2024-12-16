@@ -9,7 +9,7 @@ class A implements Runnable
     }
 }
 class B implements Runnable
-{
+{    
     synchronized public void run()
     {
         for(int i=1; i<=5; i++)
